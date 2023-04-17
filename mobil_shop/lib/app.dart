@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mobil_shop/view/discover.dart';
 
 import 'package:mobil_shop/view/home.dart';
 import 'package:mobil_shop/view/screener.dart';
@@ -104,7 +105,7 @@ class MobilShop extends StatelessWidget {
           ),
         ),
       ),
-      home: const Screener(),
+      home: const Discover(),
     );
   }
 }
