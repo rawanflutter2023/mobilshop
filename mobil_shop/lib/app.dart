@@ -6,6 +6,7 @@ import 'package:mobil_shop/view/payment_details.dart';
 import 'package:mobil_shop/view/screener.dart';
 
 import 'core/utils/app_colors copy.dart';
+import 'view/payment_method.dart';
 
 class MobilShop extends StatelessWidget {
   const MobilShop({super.key});
@@ -106,7 +107,7 @@ class MobilShop extends StatelessWidget {
           ),
         ),
       ),
-      home: const PaymentDetails(),
+      home: const PaymentPage(),
     );
   }
 }
