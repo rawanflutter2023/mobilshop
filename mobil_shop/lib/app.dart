@@ -7,6 +7,7 @@ import 'package:mobil_shop/view/screener.dart';
 
 import 'core/utils/app_colors copy.dart';
 import 'view/payment_method.dart';
+import 'view/shipping_address.dart';
 
 class MobilShop extends StatelessWidget {
   const MobilShop({super.key});
@@ -107,7 +108,7 @@ class MobilShop extends StatelessWidget {
           ),
         ),
       ),
-      home: const PaymentPage(),
+      home: const ShippingAddress(),
     );
   }
 }
