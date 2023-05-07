@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:mobil_shop/view/discover.dart';
 
 import 'package:mobil_shop/view/home.dart';
+import 'package:mobil_shop/view/language.dart';
 import 'package:mobil_shop/view/payment_details.dart';
 import 'package:mobil_shop/view/screener.dart';
+import 'package:mobil_shop/view/sing_up_page.dart';
 
 import 'core/utils/app_colors copy.dart';
 import 'view/payment_method.dart';
@@ -108,7 +110,7 @@ class MobilShop extends StatelessWidget {
           ),
         ),
       ),
-      home: const ShippingAddress(),
+      home: const SignUpPage(),
     );
   }
 }
